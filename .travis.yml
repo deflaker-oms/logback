@@ -13,6 +13,6 @@ jdk: oraclejdk9
 env:
   - FIREBASE_KEY=AIzaSyDU7I6pnN322BvRNN24jRX52owAvuHH1K4
   
-  install: true
-  script: mvn -B verify
+install: true
+script: mvn -B verify
       

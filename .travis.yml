@@ -1,6 +1,6 @@
 dist: trusty
 language: java
-jdk: oraclejdk9
+jdk: oraclejdk8
 
 before_install:
   - unset TRAVIS

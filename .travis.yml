@@ -2,7 +2,7 @@ dist: trusty
 language: java
 jdk: oraclejdk9
 
- before_install:
+before_install:
   - unset TRAVIS
   - unset _JAVA_OPTIONS
   - wget http://www.deflaker.org/maven/apache-maven-3.5.0.zip
